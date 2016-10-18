@@ -48,7 +48,7 @@
 -(void)requestProductIdentifiers
 {
     [[IAPManage  shareSingeleIAPManage] requestProductIdentifiers:KProductIdentifiers success:^(NSString *ProductIdentifiers, NSData *receiptData) {
-        NSLog(@"n内购成功");
+        NSLog(@"内购成功");
         
     } failure:^(NSString *failStr, IAPPaymentTransactionFailState state) {
         
