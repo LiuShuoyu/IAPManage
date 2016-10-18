@@ -7,22 +7,7 @@
 
 
 
-##界面样式
-
-```objectivec
-typedef NS_ENUM(NSInteger, UIButtonFrameSttyle)
-{
-
-LeftImageWithRightTitleFrameStyle=0,
-
-LeftTitleWithRightImageFrameStyle,
-
-TopImageWithbuttomTitleFrameStyle,
-
-TopTitleWithbuttomImageFrameStyle,
-};
-```
-##代码
+## 代码
 
 ```objectivec
 [[IAPManage  shareSingeleIAPManage] requestProductIdentifiers:KProductIdentifiers success:^(NSString *ProductIdentifiers, NSData *receiptData) {
