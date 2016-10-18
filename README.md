@@ -1,5 +1,5 @@
 
-##UIFrameButton介绍？
+##IAPManage介绍
 
 * 一句代码实现内购的支付， 自己封装了IAPManage类 。具体请看代码
 
